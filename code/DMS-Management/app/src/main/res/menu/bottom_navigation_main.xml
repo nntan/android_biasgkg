@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_addproduct"
+        android:enabled="true"
+        android:icon="@drawable/addorder"
+        android:title="@string/addproduct"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_sale"
+        android:enabled="true"
+        android:icon="@drawable/tag"
+        android:title="@string/sale"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_save"
+        android:enabled="true"
+        android:icon="@drawable/save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom" />
+</menu>

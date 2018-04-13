@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18ba9a</color>
+    <color name="colorPrimaryDark">#489dbc</color>
+    <color name="colorAccent">#4aad4e</color>
+    <color name="textcolor">#ffffff</color>
+
+    <color name="btnlogin">#005502</color>
+    <color name="btnloginclick">#005502</color>
+    <color name="bgappname">#005502</color>
+    <color name="bglogin">#a8ffdd</color>
+
+    <!--Home-->
+    <color name="home">#18ba9a</color>
+    <color name="travel">#fbc02d</color>
+    <color name="order">#ff0d00</color>
+    <color name="monitoring">#1f4e79</color>
+    <color name="sync">#4472c4</color>
+    <color name="logout">#ff0001</color>
+    <color name="job">#00b050</color>
+
+    <!--Orders-->
+    <color name="title">#7cb342</color>
+    <color name="titleopa">#967cb342</color>
+    <color name="menubar">#69f0ae</color>
+    <color name="bgorder">#e0e0e0</color>
+
+    <!--Travel-->
+    <color name="btnOrder">#4caf50</color>
+    <color name="btnOrderClick">#39833c</color>
+    <color name="btnMap">#fbc02d</color>
+    <color name="btnMapClick">#f9a825</color>
+    <color name="btnCheckin">#03a9f4</color>
+    <color name="btnCheckinClick">#2c81ce</color>
+
+    <!--Checkin-->
+    <color name="btnInventory">#dd4b39</color>
+    <color name="btnInventoryClick">#ba1a06</color>
+
+    <!--Work-->
+    <color name="bgDateTime">#008e8c</color>
+    <color name="bgCheckout">#00b857</color>
+    <color name="bgCheckin">#df0f00</color>
+    <color name="btnStartEnd">#00daac</color>
+</resources>

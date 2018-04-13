@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iDMS Management - V130418</string>
+
+    <string name="btnlogin">Đăng nhập / Login</string>
+    <string name="serverURL">Đăng nhập hệ thống</string>
+    <string name="missconnect">Đường truyền có vấn đề. Vui lòng kiểm tra kết nối mạng</string>
+    <string name="emailinvalid">Email nhập chưa đúng</string>
+    <string name="missingfield">Bắt buộc phải nhập đủ id và password</string>
+    <string name="setpermission">Bạn phải cấp quyền cho DMS-Management để tiếp tục. Cấp quyền bây giờ?</string>
+    <string name="access_token">pk.eyJ1IjoibHVhbm5ndXllbjA2MDciLCJhIjoiY2o2MXJ4cmJyMHk1ZDJxbXYyemhoZzc4YyJ9.V3OStNH2W3MR7I_0n1xbnA</string>
+
+    <string name="button_reset">Mặc định</string>
+    <string name="button_search">Tìm kiếm</string>
+    <string name="button_ok">OK</string>
+    <string name="button_confirm">Xác nhận</string>
+    <string name="button_clear">Xóa</string>
+    <string name="button_error">Có lỗi</string>
+    <string name="button_cancel">Hủy</string>
+    <string name="progress_bar_message">Đang xử lý</string>
+    <string name="login_fail_message">Đăng nhập thất bại, vui lòng kiểm tra lại kết nối mạng, thông tin bạn điền vào và thử lại</string>
+    <!--Home-->
+    <string name="home">Trang chủ</string>
+    <string name="travel">VIẾNG THĂM</string>
+    <string name="order">ĐƠN HÀNG</string>
+    <string name="monitoring">GIÁM SÁT</string>
+    <string name="sync">ĐỒNG BỘ</string>
+    <string name="logout">THOÁT</string>
+    <string name="job">CÔNG VIỆC</string>
+
+    <!--Order-->
+    <string name="cost">Tổng tiền:</string>
+    <string name="dateorder">Ngày đặt:</string>
+    <string name="search">Tìm kiếm</string>
+
+    CreateOrderDetailtail-->
+    <string name="customer">Khách hàng</string>
+    <string name="contact">Liên hệ:</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="groupcus">Nhóm KH</string>
+    <string name="typecus">Loại KH</string>
+    <string name="cash">Thanh toán</string>
+    <string name="debt">Hạn mức/Dư nợ</string>
+    <string name="dateship">Ngày giao</string>
+    <string name="costpay">Tiền trả khách</string>
+    <string name="typeorder">Loại đơn hàng</string>
+    <string name="warehouse">Kho xuất</string>
+    <string name="discount">Chiếu khấu</string>
+    <string name="note">Ghi chú</string>
+    <string name="product">Sản phẩm</string>
+    <string name="unit">Đơn vị tính</string>
+    <string name="unitprice">Đơn giá</string>
+    <string name="quantity">Số lượng</string>
+    <string name="radioorder">Đặt hàng</string>
+    <string name="radiosale">Bán hàng theo xe</string>
+    <string name="radiocase">Thùng</string>
+    <string name="radiobox">Hộp</string>
+    <string name="addproduct">Thêm sản phẩm</string>
+    <string name="addproductQR">Quét mã QR</string>
+    <string name="sale">Khuyến mãi</string>
+    <string name="save">Cập nhập</string>
+
+    <!--Travel-->
+    <string name="more">Xem thêm...</string>
+    <string name="btnorder">Đặt hàng</string>
+    <string name="btnship">Giao hàng</string>
+    <string name="btncheckin">Checkin</string>
+    <string name="checkout">Checkout</string>
+    <string name="dept">Dư nợ/</string>
+    <string name="limit">Hạn mức:</string>
+    <string name="status">Đã viếng thăm</string>
+    <string name="Map"><u>Bản đồ</u></string>
+    <!--Checkin-->
+    <string name="inventory">Tồn kho</string>
+    <string name="image">Hình ảnh</string>
+    <string name="location">Vị trí</string>
+    <string name="even">Chẳn</string>
+    <string name="odd">Lẻ</string>
+    <string name="expiry">Ngày hết hạn</string>
+    <string name="savedoc">Lưu báo cáo</string>
+    <string name="camera">Chụp ảnh</string>
+
+    <!--Monitoring-->
+    <string name="list">Danh sách</string>
+    <string name="map">Bản đồ</string>
+    <string name="travelstaff">Viếng thăm</string>
+    <string name="orderstaff">Đơn hàng</string>
+    <string name="plan">Kế hoạch</string>
+    <string name="execute">Thực hiện</string>
+
+    <!--Work-->
+    <string name="Start">LÀM VIỆC</string>
+    <string name="End">KẾT THÚC</string>
+    <string name="histimekeeping">Lịch sử chấm công</string>
+    <string name="in">Vào</string>
+    <string name="out">Ra</string>
+    <string name="rest">Nghỉ phép</string>
+    <string name="chooseleavetype">Chọn loại nghỉ phép</string>
+    <string name="chooseleavereason">Chọn lý do nghỉ</string>
+    <string name="leavetype">Loại nghỉ phép(*)</string>
+    <string name="leavelog">Lịch sử nghỉ phép</string>
+    <string name="leavefromday">Từ ngày(*)</string>
+    <string name="leavetoday">Đến ngày(*)</string>
+    <string name="leavereason">Lý do(*)</string>
+    <string name="leavenote">Ghi chú</string>
+    <string name="restcancel">Hủy bỏ</string>
+    <string name="restsend">Gửi đơn xin</string>
+
+    <!--Fontawesome-->
+    <string name="icaddress">&#xf015;</string>
+    <string name="icphone">&#xf095;</string>
+    <string name="icstatus">&#xf075;</string>
+    <string name="icsearch">&#xf002;</string>
+    <string name="iccheckin">&#xf041;</string>
+    <string name="ictravel">&#xf090;</string>
+    <string name="icmap">&#xf279;</string>
+    <string name="icorder">&#xf07a;</string>
+    <string name="icuser">&#xf007;</string>
+    <string name="icaddpro">&#xf217;</string>
+    <string name="icsave">&#xf0c7;</string>
+    <string name="iccamera">&#xf030;</string>
+    <string name="icdelete">&#xf05c;</string>
+    <string name="ictruck">&#xf0d1;</string>
+    <string name="icstatustravel">&#xf05d;</string>
+    <string name="icstart">&#xf04b;</string>
+    <string name="icend">&#xf04d;</string>
+    <string name="ictrash">&#xf014;</string>
+    <string name="icsend">&#xf1d9;</string>
+    <string name="icqrcode">&#xf029;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Xin chào</string>
+    <string name="username">Tên đăng nhập/ User name</string>
+    <string name="pass">Mật khẩu/ Password</string>
+    <string name="sync_data_fail">Đồng bộ dữ liệu từ máy chủ không thành công</string>
+    <string name="load_list_note_group">Đồng bộ danh sách ghi chú không thành công</string>
+    <string name="load_list_staff">Đồng bộ danh sách nhân viên không thành công</string>
+    <string name="load_list_cus">Đồng bộ danh sách khách hàng không thành công</string>
+    <string name="load_list_product">Đồng bộ danh sách sản phẩm không thành công</string>
+    <string name="login_title">Đăng Nhập Hệ Thống/Login Screen</string>
+    <string name="ictriangle">&#xf0d7;</string>
+    <string name="language">TIẾNG VIỆT / ENGLISH</string>
+    <string name="changelang">Choose Language / Chọn Ngôn ngữ</string>
+    <string name="btnChoose">Chọn / Choose</string>
+    <string name="logouttitle">Bạn có chắc muốn thoát không?</string>
+    <string name="icconfig">&#xf013;</string>
+    <string name="contactPer">Người liên hệ</string>
+    <string name="load_list_stafflocation">Đồng bộ danh sách vị trí nhân viên không thành công</string>
+    <string name="viewonmap"><u>Xem trên bản đồ</u></string>
+    <string name="checkinplan">Viếng thăm trong ngày:</string>
+    <string name="checkinfinish">Đã viếng thăm:</string>
+    <string name="checkintime">Thời gian viếng thăm:</string>
+    <string name="api_address">API Address/Địa chỉ API</string>
+    <string name="name">Họ tên</string>
+
+    <string name="dialog_staff_name">Họ tên:</string>
+    <string name="dialog_staff_phone">Số điện thoại:</string>
+    <string name="dialog_staff_checkin_plan">Viếng thăm trong ngày:</string>
+    <string name="dialog_staff_checkin_finish">Đã viếng thăm:</string>
+    <string name="dialog_staff_order">Đơn hàng:</string>
+
+    <string name="load_products_message">Đang tải dữ liệu sản phẩm</string>
+    <string name="load_customers_message">Đang tải dữ liệu khách hàng</string>
+    <string name="filter">Lọc kết quả</string>
+    <string name="route">Chọn tuyến đường</string>
+    <string name="channel">Channel</string>
+    <string name="group">Group</string>
+    <string name="namecus">Tên khách hàng</string>
+    <string name="traveltoday">Viếng thăm hôm nay</string>
+    <string name="load_route_message">Đang tải dữ liệu tuyến</string>
+    <string name="totalorder">Tổng đơn hàng</string>
+    <string name="viewnote">Xem ghi chú</string>
+    <string name="viewstatistics">Xem thống kê</string>
+    <string name="icchart">&#xf080;</string>
+    <string name="icnote">&#xf0f6;</string>
+    <string name="visited">Đã viếng thăm lúc:</string>
+    <string name="sort">Chọn sắp sếp khách hàng</string>
+    <string name="grpcus">Nhóm khách hàng</string>
+    <string name="custype">Loại khách hàng</string>
+    <string name="searching">Đang tìm...</string>
+
+    <string name="dialog_store_code">Mã:</string>
+    <string name="dialog_store_address">Địa chỉ:</string>
+    <string name="dialog_store_phone">Số điện thoại:</string>
+    <string name="cus">Khách hàng</string>
+    <string name="checkin">Checkin</string>
+    <string name="timecheckin">Thời gian viếng thăm</string>
+    <string name="visittime">Thời gian viếng thăm:</string>
+    <string name="timekeeping">Chấm công</string>
+    <string name="load_list_order">Đồng bộ danh sách đơn hàng không thành công</string>
+    <string name="load_order_message">Đang tãi dữ liệu đơn hàng</string>
+    <string name="datedeli">Ngày Giao:</string>
+
+    <string name="update_note_dialog_title">Ghi chú</string>
+    <string name="update_note_dialog_content_hint">Ghi nội dung tại đây</string>
+    <string name="checkin_checkout">Bạn có muốn checkout ngay bây giờ?</string>
+    <string name="checkin_savedocs">Bạn có muốn lưu?</string>
+    <string name="visitstatus">Tình trạng viếng thăm</string>
+    <string name="docstatus">Tình trạng đơn hàng</string>
+    <string name="address">Địa chỉ</string>
+
+    <string name="get_products_from_customer_fail">Chúng tôi đã không thể lấy danh sách sản phẩm của địa điểm bán hàng bạn vừa chọn, vui lòng thử lại sau.</string>
+    <string name="add_product_existed">Không thể chọn item đã được tồn tại.</string>
+    <string name="add_product_confirm_message">Bạn có chắc chắn muốn thêm sản phẩm này không?</string>
+
+    <string name="add_customer_store_name">Tên cửa hàng</string>
+    <string name="add_customer_person_name">Người liên hệ</string>
+    <string name="add_customer_phone">Số điện thoại</string>
+    <string name="add_customer_group">Loại</string>
+    <string name="add_customer_remark">Ghi chú</string>
+    <string name="add_customer_address">Địa chỉ</string>
+
+    <string name="get_note_fail">Quá trình lấy dữ liệu không thành công, vui lòng thử lại sau.</string>
+    <string name="store_view_note">Ghi chú:</string>
+
+    <string name="sync_success">Thành công. Tất cả dữ liệu đã được gửi lên máy chủ.</string>
+    <string name="sync_fail">Quá trình đồng bộ hóa dữ liệu không thành công, vui lòng thử lại.</string>
+
+    <string name="add_customer_missing_card_name">Bạn chưa nhập tên điểm bán hàng.</string>
+    <string name="add_customer_missing_person_name">Bạn chưa nhập tên người liên hệ.</string>
+    <string name="add_customer_missing_tel">Bạn chưa nhập số điện thoại.</string>
+    <string name="add_customer_missing_address">Bạn chưa nhập địa chỉ.</string>
+    <string name="add_customer_fail">Quá trình tạo điểm bán hàng mới không thành công, vui lòng thử lại sau.</string>
+
+    <string name="new_order_cast">Tổng tiền:</string>
+    <string name="new_order_cast_without_two_point">Tổng tiền</string>
+    <string name="new_order_choose_ship_date">Chọn ngày giao</string>
+
+    <string name="product_of_order_name">Tên</string>
+    <string name="product_of_order_code">Mã</string>
+    <string name="product_of_order_type">Loại</string>
+    <string name="product_of_order_quantity">Số lượng</string>
+    <string name="product_of_order_uom">Đơn vị</string>
+    <string name="product_of_order_price">Giá</string>
+    <string name="product_of_order_vat">VAT</string>
+
+    <string name="new_order_add_product">Thêm sản phẩm.</string>
+    <string name="promotion_get_fail">Quá trình lấy danh sách sản phẩm khuyến mãi không thành công, vui lòng thử lại sau.</string>
+    <string name="promotion_title">Sản phẩm khuyến mãi</string>
+
+    <string name="add_order_product_title">Sản phẩm đặt:</string>
+    <string name="add_order_product_confirm_save">Bạn có chắc chẵn muốn đặt đơn hàng này không?</string>
+    <string name="add_order_product_missing_date">Bạn chưa chọn ngày giao hàng</string>
+    <string name="add_order_product_missing_product">Bạn chưa chọn sản phẩm</string>
+    <string name="missfield">Một số trường nhập bị thiếu</string>
+    <string name="holiaysuccess">Xin nghỉ phép thành công</string>
+    <string name="holidayfail">Xin nghỉ phép thất bại</string>
+    <string name="punchin">Bắt đầu công việc</string>
+    <string name="punchinmes">Bạn có muốn Bắt Đầu công việc?</string>
+    <string name="punchinsuccess">Hy vọng bạn có một ngày làm việc tốt lành</string>
+    <string name="punchout">Kết thúc công việc</string>
+    <string name="punchoutmes">Bạn có muốn Kết Thúc công việc?</string>
+    <string name="punchoutsuccess">Tạm biệt, hẹn gặp lại</string>
+
+    <string name="checkin_time">Ngày giờ viếng thăm</string>
+    <string name="checkout_time">Ngày giờ check out</string>
+    <string name="order_number">Đơn đặt hàng</string>
+    <string name="pics_number">Số hình chụp</string>
+
+    <string name="get_statistics_fail">Chúng tôi không thể tài thông tin thống kê cho điểm bán hàng bạn vừa chọn, vui lòng thử lại.</string>
+    <string name="copyright">Copyright &#xf1f9; 2017 IDN Solution and Consulting Co., Ltd</string>
+    <string name="website">Website: http://www.idn.com.vn</string>
+    <string name="emailproduct">Email: info@idn.com.vn</string>
+    <string name="directionsApiKey">AIzaSyA__kbHluY9SzXTPxbvuC-G1-ctIAKhXgc</string>
+    <string name="choosewarehouse">Chọn Kho xuất</string>
+
+    <string name="add_product_option_title">Chọn phương thức nhập</string>
+    <string name="add_product_option_from_list">Chọn từ danh sách</string>
+    <string name="add_product_option_from_qr">Quét mã QR</string>
+    <string name="add_time_sheet">Bắt đầu công việc không thành công</string>
+    <string name="update_time_sheet">Kết thúc công việc không thành công</string>
+    <string name="load_time_sheet">Tải lịch sử công việc không thành công</string>
+    <string name="load_leave_type">Tải loại nghỉ phép không thành công</string>
+    <string name="load_leave_reason">Tải lý do nghỉ phép không thành công</string>
+    <string name="daterequest">Ngày xin</string>
+    <string name="datefrom">Từ ngày</string>
+    <string name="dateto">Đến ngày</string>
+    <string name="resttype">Loại phép</string>
+    <string name="leavestatus">Trạng thái</string>
+    <string name="userapprove">Người duyệt</string>
+    <string name="approve">Duyệt</string>
+    <string name="load_leave_log">Tải lịch sử nghỉ phép không thành công</string>
+    <string name="mes_approve">Bạn có chắc muốn duyệt ngày nghỉ này?</string>
+    <string name="approve_success">Duyệt ngày nghỉ thành công</string>
+    <string name="approve_fail">Duyệt ngày nghỉ thất bại</string>
+    <string name="success">Thành công</string>
+    <string name="in_timesheet">in</string>
+
+    <string name="account_setting_change_pass">Thay đổi mật khẩu</string>
+    <string name="account_setting_change_pass_old">Mật khẩu cũ</string>
+    <string name="account_setting_change_pass_new">Mật khẩu mới</string>
+    <string name="account_setting_change_pass_renew">Nhập lại mật khẩu mới</string>
+    <string name="account_setting_change_pass_change">Thay đổi</string>
+
+    <string name="account_setting_change_pass_pass_not_match">Mật khẩu nhập lại không khớp</string>
+    <string name="account_setting_change_pass_pass_empty">Mật khẩu mới không thể trống</string>
+    <string name="account_setting_change_pass_old_pass_empty">Bạn chưa nhập mật khẩu cũ</string>
+    <string name="account_setting_change_pass_completed">Cập nhật mật khẩu thành công</string>
+</resources>

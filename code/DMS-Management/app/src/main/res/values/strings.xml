@@ -1,0 +1,311 @@
+<resources>
+    <string name="app_name">iDMS Management - V130418</string>
+    <string name="btnlogin">Đăng nhập / Login</string>
+    <string name="serverURL">Đăng nhập hệ thống</string>
+    <string name="missconnect">Your network is unreach. Please turn on network and re-try it again</string>
+    <string name="emailinvalid">Email invalid</string>
+    <string name="missingfield">ID and password required</string>
+    <string name="setpermission">We need permissions for this app. Set now?</string>
+    <string name="access_token">pk.eyJ1IjoibHVhbm5ndXllbjA2MDciLCJhIjoiY2o2MXJ4cmJyMHk1ZDJxbXYyemhoZzc4YyJ9.V3OStNH2W3MR7I_0n1xbnA</string>
+
+    <string name="button_reset">Reset</string>
+    <string name="button_search">Search</string>
+    <string name="button_ok">OK</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_clear">CLEAR</string>
+    <string name="button_error">Error</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="progress_bar_message">Processing</string>
+    <string name="login_fail_message">Login fail, please check your network connection, param input and try again</string>
+    <!--Home-->
+    <string name="home">Home</string>
+    <string name="travel">VISIT</string>
+    <string name="order">Order</string>
+    <string name="monitoring">MONITORING</string>
+    <string name="sync">SYNC</string>
+    <string name="logout">LOGOUT</string>
+    <string name="job">Work</string>
+
+    <!--OrderActivity-->
+    <string name="cost">Total Cost:</string>
+    <string name="dateorder">Date order:</string>
+    <string name="search">Search</string>
+
+    CreateOrderDetailtail-->
+    <string name="customer">Customer</string>
+    <string name="contact">Contact:</string>
+    <string name="phone">Phone</string>
+    <string name="groupcus">Group Customer</string>
+    <string name="typecus">Custome type</string>
+    <string name="cash">Payment</string>
+    <string name="debt">Limit/Debt</string>
+    <string name="dateship">Date ship</string>
+    <string name="costpay">Cash back</string>
+    <string name="warehouse">Warehouse</string>
+    <string name="discount">Discount</string>
+    <string name="note">Note</string>
+    <string name="product">Product</string>
+    <string name="unit">unit</string>
+    <string name="unitprice">Unit price</string>
+    <string name="quantity">Quantity</string>
+    <string name="radioorder">Order</string>
+    <string name="radiosale">Sale by bike</string>
+    <string name="radiocase">Case</string>
+    <string name="radiobox">Box</string>
+    <string name="addproduct">Add Product</string>
+    <string name="addproductQR">Scan QR Code</string>
+    <string name="sale">Promotion</string>
+    <string name="save">Update</string>
+
+    <!--Travel-->
+    <string name="more">More...</string>
+    <string name="btnorder">Order</string>
+    <string name="btnship">Shipping</string>
+    <string name="btncheckin">Checkin</string>
+    <string name="checkout">Checkout</string>
+    <string name="dept">Debt/</string>
+    <string name="limit">Limit:</string>
+    <string name="status">Visited</string>
+    <string name="Map"><u>Map</u></string>
+
+    <!--Checkin-->
+    <string name="inventory">Inventory</string>
+    <string name="image">Hình ảnh</string>
+    <string name="location">Location</string>
+    <string name="even">Even</string>
+    <string name="odd">Odd</string>
+    <string name="expiry">Expired date</string>
+    <string name="savedoc">Save</string>
+    <string name="camera">Take photo</string>
+
+    <!--Monitoring-->
+    <string name="list">List</string>
+    <string name="map">Map</string>
+    <string name="travelstaff">Visit</string>
+    <string name="orderstaff">Order</string>
+    <string name="plan">Plan</string>
+    <string name="execute">Execute</string>
+
+    <!--Work-->
+    <string name="Start">WORKING</string>
+    <string name="End">END</string>
+    <string name="histimekeeping">History</string>
+    <string name="in">In</string>
+    <string name="out">Out</string>
+    <string name="rest">Leave</string>
+    <string name="leavetype">Leave Type(*)</string>
+    <string name="leavelog">Leave Log</string>
+    <string name="chooseleavetype">Select Leave Type</string>
+    <string name="chooseleavereason">Select Leave Reason</string>
+    <string name="leavefromday">From date(*)</string>
+    <string name="leavetoday">To date(*)</string>
+    <string name="leavereason">Reason(*)</string>
+    <string name="leavenote">Note</string>
+    <string name="restcancel">Cancel</string>
+    <string name="restsend">Send</string>
+
+    <!--Fontawesome-->
+    <string name="icaddress">&#xf015;</string>
+    <string name="icphone">&#xf095;</string>
+    <string name="icstatus">&#xf075;</string>
+    <string name="icsearch">&#xf002;</string>
+    <string name="iccheckin">&#xf041;</string>
+    <string name="ictravel">&#xf090;</string>
+    <string name="icmap">&#xf279;</string>
+    <string name="icorder">&#xf07a;</string>
+    <string name="icuser">&#xf007;</string>
+    <string name="icaddpro">&#xf217;</string>
+    <string name="icqrcode">&#xf029;</string>
+    <string name="icsave">&#xf0c7;</string>
+    <string name="iccamera">&#xf030;</string>
+    <string name="icdelete">&#xf05c;</string>
+    <string name="ictruck">&#xf0d1;</string>
+    <string name="icstatustravel">&#xf05d;</string>
+    <string name="icstart">&#xf04b;</string>
+    <string name="icend">&#xf04d;</string>
+    <string name="ictrash">&#xf014;</string>
+    <string name="icsend">&#xf1d9;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="typeorder">Order type</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">Tên đăng nhập/ User name</string>
+    <string name="pass">Mật khẩu/ Password</string>
+    <string name="sync_data_fail">Sync data from server error</string>
+    <string name="load_list_staff">Sync list Staff fail</string>
+    <string name="load_list_cus">Sync list Customer fail</string>
+    <string name="load_list_note_group">Sync list Note Group fail</string>
+    <string name="load_list_product">Sync list Product fail</string>
+    <string name="login_title">Đăng Nhập Hệ Thống/Login Screen</string>
+    <string name="ictriangle">&#xf0d7;</string>
+    <string name="language">TIẾNG VIỆT / ENGLISH</string>
+    <string name="changelang">Choose Language / Chọn Ngôn ngữ</string>
+    <string name="btnChoose">Chọn / Choose</string>
+    <string name="logouttitle">Are you sure you want to exit?</string>
+    <string name="icconfig">&#xf013;</string>
+    <string name="contactPer">Contact Person</string>
+    <string name="load_list_stafflocation">Sync list Staff Location fail</string>
+    <string name="viewonmap"><u>View on Map</u></string>
+    <string name="checkinplan">Checkin Plan:</string>
+    <string name="checkinfinish">Checkin Finish:</string>
+    <string name="checkintime">Check In Time:</string>
+    <string name="api_address">API Address/Địa chỉ API</string>
+    <string name="name">Name</string>
+
+    <string name="dialog_staff_name">Fullname:</string>
+    <string name="dialog_staff_phone">Phone number:</string>
+    <string name="dialog_staff_checkin_plan">Viếng thăm trong ngày:</string>
+    <string name="dialog_staff_checkin_finish">Đã viếng thăm:</string>
+    <string name="dialog_staff_order">Orders count:</string>
+
+    <string name="load_products_message">Downloading products informations</string>
+    <string name="load_customers_message">Downloading customers informations</string>
+    <string name="filter">Filter</string>
+    <string name="route">Choose Route</string>
+    <string name="channel">Channel</string>
+    <string name="group">Group</string>
+    <string name="namecus">Name Customer</string>
+    <string name="traveltoday">Visited today</string>
+    <string name="load_route_message">Downloading route informations</string>
+    <string name="totalorder">Total Order</string>
+    <string name="viewnote">View note</string>
+    <string name="viewstatistics">View statistics</string>
+    <string name="icchart">&#xf080;</string>
+    <string name="icnote">&#xf0f6;</string>
+    <string name="visited">Visited at:</string>
+    <string name="sort">Choose sort customer</string>
+    <string name="grpcus">Group Customer</string>
+    <string name="custype">Customer type</string>
+    <string name="searching">Searching...</string>
+
+    <string name="dialog_store_code">Code:</string>
+    <string name="dialog_store_address">Address:</string>
+    <string name="dialog_store_phone">Phone:</string>
+    <string name="cus">Customer</string>
+    <string name="checkin">Checkin</string>
+    <string name="timecheckin">Checkin time</string>
+    <string name="visittime">Visit time:</string>
+    <string name="timekeeping">TimeKeeping</string>
+    <string name="load_list_order">Sync list Order fail</string>
+    <string name="load_order_message">Downloading orders information</string>
+    <string name="datedeli">Date Delivery:</string>
+
+    <string name="update_note_dialog_title">Update notes</string>
+    <string name="update_note_dialog_content_hint">Enter note content here</string>
+    <string name="checkin_checkout">Do you want to check out now?</string>
+    <string name="checkin_savedocs">Do you want to save?</string>
+    <string name="visitstatus">Visit Status</string>
+    <string name="docstatus">Order Status</string>
+    <string name="address">Address</string>
+
+    <string name="get_products_from_customer_fail">We was not able to get list of product from current selected store , please try again later.</string>
+    <string name="add_product_existed">Can not choose an existed item.</string>
+    <string name="add_product_confirm_message">Are you sure you want to add this product?</string>
+
+    <string name="add_customer_store_name">Store</string>
+    <string name="add_customer_person_name">Contact person</string>
+    <string name="add_customer_phone">Phone</string>
+    <string name="add_customer_group">Group</string>
+    <string name="add_customer_remark">Remark</string>
+    <string name="add_customer_address">Address</string>
+
+    <string name="get_note_fail">We was not able to get note from selected store, please try again later.</string>
+    <string name="store_view_note">Note:</string>
+
+    <string name="sync_success">Done. All saved data has been sent to your server.</string>
+    <string name="sync_fail">Ops... Something bad happened, please try again.</string>
+
+    <string name="add_customer_missing_card_name">Missing card name.</string>
+    <string name="add_customer_missing_person_name">Missing contact person name.</string>
+    <string name="add_customer_missing_tel">Missing phone number.</string>
+    <string name="add_customer_missing_address">Missing address.</string>
+    <string name="add_customer_fail">We was not able to create new store, please try again later.</string>
+
+    <string name="new_order_cast">Cast:</string>
+    <string name="new_order_cast_without_two_point">Cast</string>
+    <string name="new_order_choose_ship_date">Choose ship date</string>
+
+    <string name="new_order_add_product">Add product</string>
+    <string name="promotion_get_fail">We was not able to get list of promotion product. Please try again later.</string>
+    <string name="promotion_title">Promotion Products</string>
+
+    <string name="product_of_order_name">Name</string>
+    <string name="product_of_order_code">Code</string>
+    <string name="product_of_order_type">Type</string>
+    <string name="product_of_order_quantity">Quantity</string>
+    <string name="product_of_order_uom">UoM</string>
+    <string name="product_of_order_price">Price</string>
+    <string name="product_of_order_vat">VAT</string>
+
+    <string name="add_order_product_title">Order products:</string>
+    <string name="add_order_product_confirm_save">Are you sure you want to create this order ticket?</string>
+    <string name="add_order_product_missing_date">You are not select delivery date</string>
+    <string name="add_order_product_missing_product">Your ticket is missing product, pick some and try again.</string>
+    <string name="missfield">Some input fields are missing</string>
+    <string name="holiaysuccess">Request holiday success</string>
+    <string name="holidayfail">Request holiday fail</string>
+    <string name="punchin">Punch In</string>
+    <string name="punchinmes">Do you want Punch In?</string>
+    <string name="punchinsuccess">Hope you have a good nice day</string>
+    <string name="punchout">Punch Out</string>
+    <string name="punchoutmes">Do you want Punch Out?</string>
+    <string name="punchoutsuccess">Good bye, see you later</string>
+
+    <string name="checkin_time">Check in time</string>
+    <string name="checkout_time">Check out time</string>
+    <string name="order_number">Orders number</string>
+    <string name="pics_number">Pictures number</string>
+
+    <string name="get_statistics_fail">We was not able to get statistics info for selected right now, please try again.</string>
+    <string name="copyright">Copyright &#xf1f9; 2017 IDN Solution and Consulting Co., Ltd</string>
+    <string name="website">Website: http://www.idn.com.vn</string>
+    <string name="emailproduct">Email: contact@idn.com.vn</string>
+    <string name="directionsApiKey">AIzaSyA__kbHluY9SzXTPxbvuC-G1-ctIAKhXgc</string>
+    <string name="choosewarehouse">Choose Warehouse</string>
+
+    <string name="add_product_option_title">Select adding method</string>
+    <string name="add_product_option_from_list">From list</string>
+    <string name="add_product_option_from_qr">From QR code</string>
+    <string name="in_timesheet">in</string>
+    <string name="add_time_sheet">Start Working Error</string>
+    <string name="update_time_sheet">End Working Error</string>
+    <string name="load_time_sheet">Load history time sheet error</string>
+    <string name="load_leave_type">Load leave type error</string>
+    <string name="load_leave_reason">Load leave reason error</string>
+    <string name="daterequest">Request date</string>
+    <string name="datefrom">From date</string>
+    <string name="dateto">To date</string>
+    <string name="resttype">Leave type</string>
+    <string name="leavestatus">Status</string>
+    <string name="userapprove">User approve</string>
+    <string name="approve">Approve</string>
+    <string name="load_leave_log">Load history leave error</string>
+    <string name="mes_approve">Are you sure approve to this leave?</string>
+    <string name="approve_success">Approve leave date success</string>
+    <string name="approve_fail">Approve leave date error</string>
+    <string name="success">Success</string>
+
+    <string name="account_setting_change_pass">Change password</string>
+    <string name="account_setting_change_pass_old">Old password</string>
+    <string name="account_setting_change_pass_new">New password</string>
+    <string name="account_setting_change_pass_renew">Confirm your new password</string>
+    <string name="account_setting_change_pass_change">Change</string>
+
+    <string name="account_setting_change_pass_pass_not_match">Your confirm password is not match the new password</string>
+    <string name="account_setting_change_pass_pass_empty">Your new password can not be empty</string>
+    <string name="account_setting_change_pass_old_pass_empty">Please input your old password</string>
+    <string name="account_setting_change_pass_completed">Changed Password Successfully</string>
+</resources>
