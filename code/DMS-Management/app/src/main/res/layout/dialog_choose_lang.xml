@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgappname"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/changelang"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/choose_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/lang_eng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tiếng Anh/English" />
+
+        <RadioButton
+            android:id="@+id/lang_vi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tiếng Việt/Vietnamese" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/choose_lang_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/bgappname"
+        android:text="@string/btnChoose"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luan.dms_management">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".activities.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.Login"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OrderActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.CreateOrderDetail"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.Travel"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.Checkin"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.AddProduct"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.Monitoring"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.StaffHistoryTravel"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.Work"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.AddNewCustomer"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".utils.GetQRCodeActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.Promotion"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.OrderDetail"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.AddProductForOrder"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.StatisticsViewActivity"
+            android:screenOrientation="sensorPortrait" />
+
+        <service android:name=".service.TimerWork" />
+        <service android:name=".service.TimerCheckin" />
+
+        <activity
+            android:name=".activities.RestActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.ViewOnMap"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.AccountSetting"
+            android:screenOrientation="sensorPortrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCsjsqhvWnEphedtcwhMT5mUl2k7cKrWnQ" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activities.LeaveLogActivity"
+            android:screenOrientation="sensorLandscape" />
+    </application>
+
+</manifest>
